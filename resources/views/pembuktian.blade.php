@@ -10,7 +10,7 @@
     <link rel="icon" href="20220299.141015140632.png">
     <!--<link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="stylesheet" href="bootstrap/css/all.min.css">-->
-    <title>Aktivitas Keagamaan || SMK WIKRAMA BOGOR</title>
+    <title>Monitoring Aktivitas Pejabat</title>
    <!-- <style>
          .container{
             width: 900px;

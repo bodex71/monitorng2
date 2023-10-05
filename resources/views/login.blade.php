@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="icon" href="20220299.141015140632.png">
-    <title>Monitoring Aktivitas Peserta Didik || SMK WIKRAMA BOGOR</title>
+    <title>Monitoring Aktivitas PEJABAT || KABUPATEN BADUNG</title>
     <style>
         .container{
             width: 400px;
@@ -24,7 +24,7 @@
   <body>
       
       <div class="container">
-        <h4 class="text-center">MONITORING AKTIVITAS PESERTA DIDIK <br>SMK WIKRAMA BOGOR</h4>
+        <h4 class="text-center">MONITORING AKTIVITAS PEJABAT <br> KABUPATEN BADUNG</h4>
           <hr>
           <form action="/postlogin" method="post" enctype="multipart/form-data">
           {{csrf_field()}}

@@ -10,7 +10,7 @@
     <link rel="icon" href="icon.jpg">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="stylesheet" href="bootstrap/css/all.min.css">
-    <title>Data Diri || SMK WIKRAMA BOGOR</title>
+    <title>Data Diri || Pejabat</title>
   </head>
   <body>
   <nav class="navbar navbar-expand-md navbar-light bg-transparent">
@@ -56,19 +56,19 @@
                     </ul>
                 </div>
         </nav>
-        <div class="jumbotron" style="background-image:url('bckk.jpg'); height:200px; margin-top:-55px;">
+        <div class="jumbotron" style="background-image:url('endek.jpg'); height:200px; margin-top:-55px;">
 </div>
       <div class="card mb-3" style="width: 1348px; margin-top:-32px;border:none;">
   <div class="row no-gutters">
     <div class="col-md-4">
-      <img src="orang.jpg" style="height:500px; width:400px;" class="card-img" alt="...">
+      <img src="pejabat.jpeg" style="height:500px; width:400px;" class="card-img" alt="...">
     </div>
     <div class="col-md-8">
       <div class="card-body">
-      <h4 class="text-center">MONITORING AKTIVITAS PESERTA DIDIK <br> SMK WIKRAMA BOGOR</h4><hr>
+      <h4 class="text-center">MONITORING AKTIVITAS PEJABAT <br> KABUPATEN BADUNG</h4><hr>
       <form action="/datadiri/create" method="post" enctype="multipart/form-data" style="margin-left:50px;" >
       {{csrf_field()}}
-      <label for="">NIS : </label>
+      <label for="">NIP : </label>
       <input type="text" name="nis" style="margin-left:87px; margin-bottom:20px; width:500px; margin-top:50px;"><br>
       <label for="">Nama : </label>
       <input type="text" name="nama" style="margin-left:70px; margin-bottom:20px; width:500px;  "><br>

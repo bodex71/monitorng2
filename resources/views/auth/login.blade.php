@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Login || SMK WIKRAMA</title>
+    <title>Login || Aktivitas</title>
     <link rel="icon" href="icon.jpg">
     <style>
         .container{
@@ -30,13 +30,13 @@
 <div class="card mb-3" style="width:1300px; border:none;height:200px;">
     <div class="row no-gutters">
       <div class="col-md-6">
-        <img src="backround register.jpg" class="card-img" alt="...">
+        <img src="logo.jpeg" class="card-img" alt="...">
       </div>
       <div class="col-md-6">
         <div class="card-body">
 
         <form method="POST" action="{{ route('login') }}" style="margin-left:200px; margin-top:200px;">
-                     <h4 class="text-center">MONITORING AKTIVITAS PESERTA DIDIK <br>SMK WIKRAMA BOGOR</h4><hr>
+                     <h4 class="text-center">MONITORING AKTIVITAS PEJABAT <br>KABUPATEN BADUNG</h4><hr>
                         @csrf
                         <div class="form-group row" style="margin-top:40px;">
                             <label for="email" class="col-md-4 col-form-label">{{ __('Email') }}</label>

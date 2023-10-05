@@ -10,7 +10,8 @@
     <link rel="icon" href="20220299.141015140632.png">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="stylesheet" href="bootstrap/css/all.min.css">
-    <title>Menu || SMK WIKRAMA BOGOR</title>
+    <link rel="icon" href="logo.jpeg">
+    <title>Menu || Monitoring Aktivitas Pejabat</title>
     <style>
     h4{
         margin-top:20px;
@@ -22,7 +23,7 @@
     }
     </style>
   </head>
-  <body style="background:url('bckk.jpg');">
+  <body>    <!--style="background:url('endek.jpg');"-->
       <nav class="navbar navbar-expand-md navbar-light bg-transparent">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -31,6 +32,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
+                        <img src="logo.jpeg" style="height:80px; width:70px;">
+                        <h1 style="">SISTEM MONITORING PEJABAT</h1>
                     </ul>
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
@@ -46,6 +49,7 @@
                             @endif
                         @else
                             <li class="nav-item dropdown">
+                                
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
@@ -66,18 +70,43 @@
                     </ul>
                 </div>
         </nav>
-        <div class="jumbotron" style="background-image:url('ilustrasi2.jpg');height:800px; width:1200px; margin-left:50px; margin-top:50px; border-radius:50%;">
-        <h1 class="text-center" style=" height:200px; margin-top:-115px;border:1px solid black; background:peachpuff; border-radius:30px; border-color:peachpuff;"><br>MONITORING AKTIVITAS PESERTA DIDIK <br> SMK WIKRAMA BOGOR</h1>
-        </div>
-      <form action="">
-      <img src="form.jpg" alt="" style="height:800px;width:900px; margin-left:20px;">
-      <a  href="/datadiri" class=" text-center btn btn-primary" style=" border-radius:100px; width:150px; height:150px; margin-top:600px; margin-left:-200px;"><p class="text-center" style="margin-top:50px;"><b>Data Diri</b></p> </a><br><br><br><br>
-      <img src="time2.jpg" alt="" style="margin-top:-1000; margin-left:400px;height:900px;width:900px;"><br><br><br><br><br>
-      <a  href="/setjadwal" class=" text-center btn btn-dark" style=" border-radius:100px; width:150px; height:150px; margin-top:-400px; margin-left:500px;"><p class="text-center" style="margin-top:50px;"><b>Buat Jadwal</b></p> </a>
-      <img src="check.jpg" alt="" style="height:800px;width:900px; margin-left:20px;">
-      <a  href="/pembuktian" class=" text-center btn btn-secondary" style="border-radius:100px; width:150px; height:150px; margin-top:600px; margin-left:-200px;"><p class="text-center" style="margin-top:40px;"><b>Isi Data Kegiatan</b></p> </a><br><br><br><br>
-      <img src="data.jpg" alt="" style="margin-top:-1000; margin-left:400px;height:900px;width:900px;">
-      <a  href="/raport" class=" text-center btn btn-info" style=" border-radius:100px; width:150px; height:150px; margin-top:-300px; margin-left:450px;"><p class="text-center" style="margin-top:40px;"><b>Laporan Kegiatan</b></p> </a>
+    
+      {{-- <form action=""> --}}
+
+        <div class="card text-center">
+            <div class="card-header">
+              <ul class="nav nav-pills card-header-pills">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/datadiri">Data Diri</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/setjadwal">Buat Jadwal</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pembuktian">Isi Data Kegiatan</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/raport">Laporan Kegiatan</a>
+                  </li>
+              </ul>
+            </div>
+            <div class="card-body">
+                <center>
+                    <div class="jumbotron" style="background-image:url('pejabat2.jpeg');height:550px; width:800px; margin-top:50px; border-radius:15%;">
+                        {{-- <h1 class="text-center" style=" height:200px; margin-top:-115px;border:1px solid black; background:peachpuff; border-radius:30px; border-color:peachpuff;"><br>MONITORING AKTIVITAS PEJABAT <br> KABUPATEN BADUNG</h1> --}}
+                    </div>
+                </center>
+            </div>
+          </div>
+
+      {{-- <a  href="/datadiri"><b>Home</b></a>
+      <a  href="/datadiri"><b>Data Diri</b></a>
+      <a  href="/setjadwal"><b>Buat Jadwal</b></a>
+      <a  href="/pembuktian"><b>Isi Data Kegiatan</b></a>
+      <a  href="/raport"><b>Laporan Kegiatan</b></a> --}}
       
       </form>
     <!-- Optional JavaScript -->
